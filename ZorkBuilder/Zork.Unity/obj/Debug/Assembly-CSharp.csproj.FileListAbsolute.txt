@@ -210,3 +210,4 @@ C:\Users\batsu\OneDrive\Documents\GitHub\ZorkInUnity\ZorkBuilder\Zork.Unity\obj\
 C:\Users\batsu\OneDrive\Documents\GitHub\ZorkInUnity\ZorkBuilder\Zork.Unity\obj\Debug\Assembly-CSharp.pdb
 C:\Users\batsu\OneDrive\Documents\GitHub\ZorkInUnity\ZorkBuilder\Zork.Unity\Temp\bin\Debug\Zork.Common.dll
 C:\Users\batsu\OneDrive\Documents\GitHub\ZorkInUnity\ZorkBuilder\Zork.Unity\Temp\bin\Debug\Zork.Common.pdb
+C:\Users\batsu\OneDrive\Documents\GitHub\ZorkInUnity\ZorkBuilder\Zork.Unity\Temp\bin\Debug\Newtonsoft.Json.dll

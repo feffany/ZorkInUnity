@@ -280,6 +280,12 @@
  <Reference Include="nunit.framework">
  <HintPath>C:/Program Files/Unity 2018-1-5/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Assets/netstandard2.0/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Zork.Common">
+ <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Assets/netstandard2.0/Zork.Common.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -288,12 +294,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Zork.Common">
- <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Assets/netstandard2.0/Zork.Common.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/batsu/OneDrive/Documents/GitHub/ZorkInUnity/ZorkBuilder/Zork.Unity/Assets/netstandard2.0/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity 2018-1-5/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

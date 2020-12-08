@@ -1406,8 +1406,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1358812261}
-  - component: {fileID: 1358812260}
   - component: {fileID: 1358812262}
+  - component: {fileID: 1358812260}
   m_Layer: 0
   m_Name: gameManager
   m_TagString: Untagged
@@ -1424,9 +1424,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1358812259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecc073e485e63d4c8208872bd02747d, type: 3}
+  m_Script: {fileID: 11500000, guid: 38a5e83fb412f3644b2d3e91896d04dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextLinePrefab: {fileID: 113506216}
+  OutputTextContainer: {fileID: 1700082101}
+  MaxTextLines: 60
 --- !u!4 &1358812261
 Transform:
   m_ObjectHideFlags: 0
@@ -1450,9 +1453,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1358812259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38a5e83fb412f3644b2d3e91896d04dc, type: 3}
+  m_Script: {fileID: 11500000, guid: cecc073e485e63d4c8208872bd02747d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ZorkFilename: Assets\Resources\Zork.json
+  OutputService: {fileID: 1358812260}
+  ZorkGameFileAssetName: Zork
 --- !u!1 &1389444454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +1922,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1043852459}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.974205
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2152,7 +2158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -283}
+  m_AnchoredPosition: {x: 0, y: -282.99994}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1700082102
