@@ -54,8 +54,5 @@ public class UnityOutputService : MonoBehaviour, IOutputService
         WriteLine(value.ToString());
     }
 
-    /*[SerializeField]
-    public TextMeshProUGUI OutputText;*/
-
     private List<GameObject> mTextLines;
 }

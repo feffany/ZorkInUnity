@@ -14,6 +14,7 @@ public class UnityInputService : MonoBehaviour, IInputService
         if (Input.GetKey(KeyCode.Return))
         {
             string inputString = InputField.text;
+
             if (string.IsNullOrWhiteSpace(inputString) == false)
             {
                 InputReceived?.Invoke(this, inputString);

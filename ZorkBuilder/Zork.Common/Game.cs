@@ -5,8 +5,6 @@ using System.Reflection;
 using System.Text;
 using System.ComponentModel;
 using Newtonsoft.Json;
-//using Microsoft.CodeAnalysis.CSharp.Scripting;
-//using Microsoft.CodeAnalysis.Scripting;
 
 namespace Zork
 {
